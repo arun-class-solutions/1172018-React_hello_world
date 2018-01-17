@@ -36,7 +36,7 @@ class HelloWorld extends Component {
   render() {
     return (
       <div>
-        <div>Hello {this.state.firstName} {this.state.lastName}!</div>
+        <div className="greeting">Hello {this.state.firstName} {this.state.lastName}!</div>
         <button onClick={this.handleClick.bind(this)}>Click Me</button>
 
         <form>
